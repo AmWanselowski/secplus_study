@@ -34,10 +34,6 @@ class Study:
 
         return self.soup, self.quest, self.answers
     
-    #def __str__(self):
-    #   return self.quest+"\n"+self.answers
-
-
     def get_quest_answer(self, soup):
         list_to_parsed = []
         VALID_TAGS = ["b"]
